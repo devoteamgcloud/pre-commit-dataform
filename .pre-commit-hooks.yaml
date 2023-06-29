@@ -2,3 +2,4 @@
     name: dataform
     language: docker_image
     entry: docker pull dataformco/dataform
+    files: "*.sqlx"
