@@ -6,7 +6,7 @@ This repository contains a pre-commit hook that allows you to automate the forma
 
 ```
 - repo: https://github.com/hrialan/pre-commit-dataform
-  rev: v1.0.0
+  rev: [Fill with latest release]
   hooks:
     - id: dataform_format
 ```
