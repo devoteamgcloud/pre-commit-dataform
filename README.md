@@ -5,7 +5,7 @@ This repository contains a pre-commit hook that allows you to automate the forma
 ### How to Use
 
 ```
-- repo: https://github.com/hrialan/pre-commit-dataform
+- repo: https://github.com/devoteamgcloud/pre-commit-dataform
   rev: [Fill with latest release]
   hooks:
     - id: dataform_format
