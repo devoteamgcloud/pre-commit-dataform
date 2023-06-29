@@ -18,4 +18,3 @@ if [ $exit_code -ne 0 ]; then
 fi
 
 echo "Dataform formatting complete. Please review the changes before committing."
-exit 0
