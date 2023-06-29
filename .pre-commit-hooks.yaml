@@ -2,5 +2,5 @@
     name: Dataform format
     entry: hooks/dataform_format.sh
     language: script
-    files: (\.sqlx)$
+    files: (\.sqlx|\.js)$
     pass_filenames: false
