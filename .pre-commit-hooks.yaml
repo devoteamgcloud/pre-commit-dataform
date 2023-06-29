@@ -3,3 +3,4 @@
     entry: hooks/dataform_format.sh
     language: script
     files: (\.sqlx)$
+    pass_filenames: false
