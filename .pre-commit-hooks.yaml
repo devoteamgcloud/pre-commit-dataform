@@ -1,4 +1,5 @@
--   id: dataform
-    name: dataform
-    language: docker_image
-    entry: dataformco/dataform:latest dataform format
+-   id: dataform_format
+    name: Dataform format
+    entry: hooks/dataform_format.sh
+    language: script
+    files: (\.sqlx)$
