@@ -14,11 +14,11 @@ fi
 
 # Compute hash of all files in the project before and after formatting to detect changes
 
-hash_before_format=$(find . -type f -exec md5sum {} \; | awk '{print $1}' | sort | md5sum | awk '{print $1}')
+hash_before_format=$(find ./definitions ./includes -type f -exec md5sum {} \; | awk '{print $1}' | sort | md5sum | awk '{print $1}')
 
 dataform format
 
-hash_after_format=$(find . -type f -exec md5sum {} \; | awk '{print $1}' | sort | md5sum | awk '{print $1}')
+hash_after_format=$(find ./definitions ./includes -type f -exec md5sum {} \; | awk '{print $1}' | sort | md5sum | awk '{print $1}')
 
 if [ "$hash_before_format" != "$hash_after_format" ]; then
     exit 1

@@ -15,7 +15,7 @@ fi
 dataform install
 dataform compile
 
-if [[ $? -ne 0 ]]; then
+if [ $? -ne 0 ]; then
   exit 1
 else
   exit 0
