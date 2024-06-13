@@ -12,6 +12,7 @@ if ! command -v dataform >/dev/null 2>&1; then
   fi
 fi
 
+dataform install
 dataform compile
 
 if [[ $? -ne 0 ]]; then
