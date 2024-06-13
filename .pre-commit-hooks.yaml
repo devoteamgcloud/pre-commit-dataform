@@ -4,3 +4,10 @@
     language: script
     files: (\.sqlx|\.js)$
     pass_filenames: false
+
+-   id: dataform_compile
+    name: Dataform compile
+    entry: hooks/dataform_compile.sh
+    language: script
+    files: (\.sqlx|\.js)$
+    pass_filenames: false
