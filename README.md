@@ -5,6 +5,7 @@ This repository contains pre-commit hooks to automate checks for Dataform projec
 ## Requirements
 
 - **Dataform CLI**: You must have the [Dataform CLI](https://cloud.google.com/dataform/docs/use-dataform-cli) installed locally in your environment for these hooks to function, as they depend on the `dataform` executable.
+- **Node.js**: It's recommended to use Node.js v20 or lower, as newer versions (like v22+) might be incompatible with current Dataform CLI dependencies.
 
 ## Available Hooks
 
