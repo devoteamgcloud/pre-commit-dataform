@@ -1,0 +1,6 @@
+config {
+  type: "view"
+}
+
+SELECT
+  1 AS test

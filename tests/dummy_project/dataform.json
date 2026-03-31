@@ -1,0 +1,6 @@
+{
+  "defaultDatabase": "test-project",
+  "defaultLocation": "US",
+  "defaultSchema": "dataform",
+  "assertionSchema": "dataform_assertions"
+}
