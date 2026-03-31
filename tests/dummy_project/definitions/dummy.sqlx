@@ -2,4 +2,5 @@ config {
   type: "view"
 }
 
-SELECT 1 AS test
+SELECT
+  1 AS test

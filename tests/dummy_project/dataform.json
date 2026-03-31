@@ -1,6 +1,6 @@
 {
-  "defaultProject": "test-project",
+  "defaultDatabase": "test-project",
   "defaultLocation": "US",
-  "defaultDataset": "dataform",
+  "defaultSchema": "dataform",
   "assertionSchema": "dataform_assertions"
 }
